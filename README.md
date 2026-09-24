@@ -4,8 +4,7 @@ A small, API-first document generation platform: turn "add a new report"
 into mostly configuration instead of a new application.
 
 Originally designed to replace a legacy Pentaho-based reporting setup;
-this repo is a generalized, demo-data version of that architecture for
-portfolio purposes — no real client data or systems involved.
+this repo is a generalized, demo-data version
 
 ## Architecture
 
