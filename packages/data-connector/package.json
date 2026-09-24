@@ -1,0 +1,15 @@
+{
+  "name": "data-connector",
+  "version": "0.1.0",
+  "description": "Guarded query executor: owns approved SQL, validates parameters, holds DB credentials. Never accepts arbitrary SQL.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}

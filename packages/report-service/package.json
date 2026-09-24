@@ -1,0 +1,15 @@
+{
+  "name": "report-service",
+  "version": "0.1.0",
+  "description": "Public-facing API: report definitions, parameter handling, orchestrates the Data Connector and Carbone to produce documents.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "carbone": "^3.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  }
+}

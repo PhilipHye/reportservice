@@ -1,0 +1,14 @@
+{
+  "name": "report-service-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Portfolio project: a Report Service + Data Connector + Carbone pipeline that replaces bespoke reporting tools (e.g. Pentaho) with a configurable, API-first document generation platform.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "seed": "npm run seed -w packages/data-connector",
+    "start:connector": "npm run start -w packages/data-connector",
+    "start:report-service": "npm run start -w packages/report-service"
+  }
+}

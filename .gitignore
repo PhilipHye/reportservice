@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+packages/data-connector/data/*.sqlite
+packages/report-service/output/
+.DS_Store

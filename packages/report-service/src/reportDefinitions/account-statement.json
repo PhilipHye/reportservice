@@ -1,0 +1,7 @@
+{
+  "id": "account-statement",
+  "title": "Account Statement",
+  "connector_query_id": "account_statement",
+  "template": "templates/account-statement.docx",
+  "params": ["account_id", "from_date", "to_date"]
+}
